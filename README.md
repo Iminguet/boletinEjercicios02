@@ -111,8 +111,6 @@ Abrir herramientas de desarrollador en el navegador.
 Para ello:
 Botón derecho->inspeccionar->consola
 
-Los ejercicios vienen comentados sobre el código. Para usarlos, descomentar el coódigo que se encuentra entre /\* \*/ y seguír las instrucciones del prompt del navegador.
-
 ## Licencia
 
 <a href="https://creativecommons.org/publicdomain/zero/1.0/"><img src="https://raw.githubusercontent.com/johnturner4004/readme-generator/master/src/components/assets/images/cczero.svg" height=40 />Creative Commons Zero v1.0 Universal</a>
