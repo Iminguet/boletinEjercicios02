@@ -10,11 +10,11 @@ const valor01 = parseInt(
 
 const valor02 = parseInt(prompt('...introduce el segundo valor'));
 
-const numerosRandom = function (min, max) {
+const numerosRandom = (min, max) => {
   return parseInt(Math.random() * (max - min + 1) + min);
 };
 
-const llenarMostrarArray = function (cantidadIteraciones, minimo, maximo) {
+const llenarMostrarArray = (cantidadIteraciones, minimo, maximo) => {
   const arrayNumeros = [];
   let numeros = '';
   for (let i = 0; i < cantidadIteraciones; i++) {
