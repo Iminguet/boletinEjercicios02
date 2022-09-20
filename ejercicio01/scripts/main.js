@@ -4,11 +4,11 @@ const figuraUsuario = prompt(
   'Introduce la figura de la cual quieres calcular el área. ¿Circulo,triangulo o cuadrado?'
 ).toLocaleLowerCase();
 
-const area = function (figura) {
+const area = (figura) => {
   console.log(circulo(figura) || triangulo(figura) || cuadrado(figura));
 };
 
-const circulo = function (circle) {
+const circulo = (circle) => {
   if (circle == 'circulo') {
     const radio = parseFloat(prompt('Introduce el rádio del circulo'));
     const resultado = radio ** 2 * Math.PI;
@@ -16,7 +16,7 @@ const circulo = function (circle) {
   }
 };
 
-const triangulo = function (triangle) {
+const triangulo = (triangle) => {
   if (triangle == 'triangulo') {
     const base = parseFloat(prompt('Introduce la base del triangulo'));
     const altura = parseFloat(prompt('Introduce la altura del triangulo'));
@@ -25,10 +25,9 @@ const triangulo = function (triangle) {
   }
 };
 
-const cuadrado = function (square) {
+const cuadrado = (square) => {
   if (square == 'cuadrado') {
     const lado = parseFloat(prompt('Introduce el lado del cuadrado'));
-
     const resultado = lado * lado;
     return `El área de un cuadrado con lado ${lado} es de ${resultado}`;
   }
